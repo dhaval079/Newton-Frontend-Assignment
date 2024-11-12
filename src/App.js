@@ -4,7 +4,7 @@ import {
   ChevronRight, Bell, Rocket, BarChart2,
   Clock, PieChart, ArrowRight, Target
 } from 'lucide-react';
-import './index.css'
+
 
 const App = () => {
   const [showCheckmark, setShowCheckmark] = useState(false);
@@ -26,7 +26,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="h-full bg-gradient-to-b from-purple-50 to-white max-w-md mx-auto relative">
+    <div className="h-full containers bg-gradient-to-b from-purple-50 to-white max-w-md mx-auto relative">
       {/* Header */}
       <div className="px-6 pt-6 pb-4 flex justify-between items-center">
         <div className="flex items-center">
